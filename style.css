@@ -1,0 +1,487 @@
+
+/* common css */
+
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #152c5b;
+}
+/* common css */
+
+
+/* header */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    padding: 15px 0;
+    border-bottom: 2px solid #f2f4f6;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.logo a{}
+
+.logo a img{
+    width: 100%;
+}
+.menu {
+    width: 50%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 0 10px;
+    color: #152c5b;
+    display: block;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+   
+    color:#008aff;
+  
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+/* header */
+/* bannar_area  strat*/
+
+.bannar_area{
+    padding: 50px;
+}
+.container_2{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.bannar_area h1{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.bannar_area p{
+    text-align: center;
+}
+
+.img_2 img{
+    margin-left: 200px;
+}
+
+/* bannar_area  end*/
+/* blog_area  start*/
+
+.container_3{
+    width: 60%;
+    margin: 0 auto;
+}
+.blog{
+    padding: 50px 0;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.blog_one{
+    width: 50%;
+    float: left;
+   
+}
+
+.blog_one h2{
+    font-size: 33px;
+    text-align:right;
+}
+
+.blog_one p{
+    text-align-last: right;
+}
+
+.blog_two{
+    width: 50%;
+    float: right;
+}
+
+.blog_two h1{
+    margin-left: 30px;
+    font-size: 40px;
+    color: #3f3d56;
+}
+/* blog_area ende*/
+/* service start*/
+
+.container_s {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.all-service {
+    padding: 80px 0;
+    color: #fdebed;
+    overflow: hidden;
+}
+
+.service {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    color: #3f3d56;
+   
+    
+}
+
+.one{
+    background: #fdebed;;
+}
+.two{
+    background: #ebf9f4;
+}
+.three{
+    background: #fff7e8;
+}
+
+
+.p_t img{
+    width: 100%;
+}
+.service h2{
+     font-size: 25px;
+     text-align: center;
+     
+    
+}
+.service p{
+    text-align: center;
+}
+
+/* service end */
+
+/* footer start*/
+/* .container_f{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+footer{
+    background-color: #1293ff;
+    padding: 10px;
+    text-align: center;
+    
+} */
+
+.footer{
+
+}
+.container_f{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+.fo{
+    background-color: #1293ff;
+    padding: 13px 0;
+    text-align: center;
+}
+
+.fo p{
+    color:#75c9ff;
+}
+
+
+
+
+
+
+
+
+
+/* padding and margin */
+
+
+
+.container_5{
+    width: 60%;
+    margin: 0 auto;
+}
+.all_box{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+
+}
+
+.container_6{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.all{
+    overflow: hidden;
+}
+.box_1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    
+}
+.container_7{
+    width: 60%;
+    margin: 0 auto;
+}
+.padd{
+
+}
+
+.all_2{
+    overflow: hidden;
+}
+
+.box_2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    
+}
+
+/* display property */
+
+.container_ab{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.one01{
+    border: 2px solid black;
+    width: 40%;
+    height: 100px;
+    margin-top: 20px;
+}
+.two02{
+    border: 2px solid rgb(53, 28, 164);
+    width: 40%;
+    height: 100px;
+}
+
+.one03{
+     border: 2px solid rgb(141, 96, 96);
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.two04{
+     border: 2px solid rgb(200, 35, 35);
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+    
+
+}
+
+.next_p{
+   color:#3f3d56;
+}
+
+
+.next_p a:hover{
+   color: red;
+}
+
+
+/* next page */
+
+
+.container_8{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.next_p ul{
+    padding: 50px;
+    text-align:center;
+}
+.next_p ul li{
+    list-style: none;
+    float: left;
+
+}
+.next_p ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+   
+}
+.next_p ul{}
+
+
+
+/* selectors */
+
+
+.container_se{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.all_p{
+    padding: 20px 0;
+    overflow: hidden;
+}
+.all_p p:first-child{
+    background:#FFC312;
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+}
+.all_p p:nth-child(2){
+    background:#C4E538;
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+}
+.all_p p:nth-child(3){
+    background:#12CBC4;
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+}
+.all_p p:nth-child(4){
+    background:#FDA7DF;
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+}
+.all_p p:last-child{
+    background:#ED4C67;
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.container_le{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.lett p::first-letter{
+    font-size: 50px;
+    color:#e74c3c;
+    font-weight: bold;
+}
+.container_l{
+    width: 80%;
+    margin: 0 auto;
+}
+.first_l p::first-line{
+    background:#C4E538;
+}
+
+/* hover */
+.container_ho{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hove{
+    padding: 10px 0 80px;
+}
+.hove ul{}
+.hove ul li{
+    list-style: none;
+    float: left;
+}
+.hove ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 10px 15px;
+    background: #006266;
+    color:#ebf9f4;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.hove ul li a:hover{
+    background-color: #EE5A24;
+    color:#3f3d56;
+}
+
+
+/* frouts list */
+
+.oder_les{
+   
+}
+.container_lis{
+    width: 80%;
+    margin: 0 auto;
+}
+.oder_les li:nth-of-type(1){
+    background: green;
+    padding: 5px 0;
+}
+.oder_les li:nth-of-type(2){
+    background: rgb(82, 1, 1);
+    padding: 5px 0;
+}
+.oder_les li:nth-of-type(3){
+    background: rgb(151, 104, 68);
+    padding: 5px 0;
+}
+.oder_les li:nth-of-type(4){
+    background: rgb(129, 163, 129);
+    padding: 5px 0;
+}
+.oder_les li:nth-of-type(5){
+    background: rgb(22, 31, 130);
+    padding: 5px 0;
+}
+.oder_les li:nth-of-type(6){
+    background: rgb(150, 73, 28);
+    padding: 5px 0;
+}
+.oder_les li:nth-of-type(7){
+    background: rgb(130, 22, 22);
+    padding: 5px 0;
+}
+.oder_les li:nth-of-type(8){
+    background: rgb(239, 207, 207);
+    padding: 5px 0;
+}
+
+
